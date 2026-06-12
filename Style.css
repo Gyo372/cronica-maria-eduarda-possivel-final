@@ -1,0 +1,25 @@
+body {
+margin: 0;
+overflow: hidden;
+background: radial-gradient(#1a1a1a, #000);
+font-family: "Cinzel", serif;
+color: #f2e6d0;
+}
+
+#ui {
+position: fixed;
+top: 20px;
+width: 100%;
+text-align: center;
+z-index: 10;
+opacity: 0.85;
+}
+
+h1 {
+font-size: 22px;
+letter-spacing: 2px;
+}
+
+canvas {
+display: block;
+}
